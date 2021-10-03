@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 .container {
+  background-color: #73A0FA;
   width: 100vw;
   height: 100vh;
   display: flex;

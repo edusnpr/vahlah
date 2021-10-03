@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="cadastrocliente.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;900&display=swap" rel="stylesheet">
+    <title>VahLah - Cadastro de Cliente</title>
+  </head>
+  <body>
+    
+     <header>
+      <div class="header">
+        <div class="logo">
+          <img src="logo150.png" alt="" />
+        </div>
+       <div class="menu">
+         <nav class="navbar">
+           <ul>
+              <li><a href="">Vendas</a></li>
+              <li><a href="">Historico</a></li>
+              <li><a  style="color: #14367A;" href="">Clientes</a></li>
+              <li><a href="">Produto</a></li>
+            </ul>
+           </ul>
+         </nav>
+       </div>
+      </div>
+     </header>
+      <main>
+     
+        <section class="caixa">
+          <div class="bg">
+            <div class="title-box">
+                <h1 class="title">CADASTRO DE CLIENTES</h1>
+            </div>
+            <form action="">
+                <div>
+                    <input style="width: 25vw;" type="text" placeholder="Nome Empresa" id="nome" class='form-control'>
+                
+                    <input type="text" placeholder="CNPJ" id="cpf" class='form-control'>
+                </div>
+                <div>
+                    <input  style="width: 25vw;" type="text" placeholder="Endereço" id="endereco" class='form-control'>
+               
+                    <input type="text" placeholder="CEP" id="cep" class='form-control'>
+                </div>
+                <div>
+                    <input type="text" placeholder='Número' id="numEnd" class='form-control'>
+                
+                    <input type="text" placeholder="Complemento" id="comEnd" class='form-control'>
+                </div>
+                <div>
+                    <input type="text" placeholder='Bairro' id="bairro" class='form-control'>
+                    <input type="text" placeholder="Cidade" id="cidade" class='form-control'>
+                    <input style="width: 5vw;" type="text" placeholder="Estado" id="estado" class='form-control'>
+                <div>
+                    <input  style="width: 25vw;"type="text" placeholder="Nome Responsável" id="nome" class='form-control'>
+               
+                    <input type="text" placeholder="Telefone" id="tel" class='form-control'>
+                </div>
+                <div>
+                    <input  style="width: 25vw;"type="text" placeholder="E-mail" id="email" class='form-control'>
+                </div>
+               
+            </form>
+          </div>
+          <div id="btn-section">
+            <button class="btn btn-enviar" onclick="cadastrarCliente()">ENVIAR</button>
+            <button class="btn btn-cancelar">CANCELAR</button>
+          </div>
+        </section>
+      
+      </main>
+  </body>
+</html>
